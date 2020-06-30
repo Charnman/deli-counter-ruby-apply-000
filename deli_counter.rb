@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(array)
-  answer = ""
+  answer = "The line is currently:"
   
   if array.length == 0 
     puts "the line is empty"
@@ -10,7 +10,7 @@ def line(array)
     while i < array.length + 1
       person = array[i]
       
-      answer += "The line is currently: " + i + ". " + person
+      answer += " " + i + ". " + person
     end
   end
   
