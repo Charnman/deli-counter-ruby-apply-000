@@ -4,7 +4,7 @@ def line(array)
   answer = "The line is currently:"
   
   if array.length == 0 
-    puts "the line is empty"
+    puts "The line is currently empty."
   else
     i = 1 
     while i < array.length + 1
